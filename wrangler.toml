@@ -1,0 +1,7 @@
+name = "fastapi"
+main = "worker.js"
+compatibility_date = "2023-08-23"
+
+[vars]
+ UPSTASH_REDIS_REST_TOKEN = "AY_gAAIncDE4ODQxYTI1ZTY5ZmE0Mjk3OWU5MDE5MzQ1NTJmODg2NXAxMzY4MzI"
+UPSTASH_REDIS_REST_URL =  "https://tops-goat-36832.upstash.io"
