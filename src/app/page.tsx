@@ -29,7 +29,7 @@ const Page = () => {
 <CommandInput value={search} onValueChange={setSearch} placeholder='Search Countries' className='text-zinc-900 font-extrabold text-sans p-2 '></CommandInput>
  <CommandList>
   {
-    results?.results.length == 0 && <CommandEmpty>No Results Found</CommandEmpty>
+    results?.results.length == 0 && search.length>5  &&<CommandEmpty>No Results Found</CommandEmpty>
   }
   <CommandGroup className='cursor-pointer font-extrabold text-xl '>
   {
